@@ -1,0 +1,23 @@
+                    Executable : C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\@current_project\ncnn-android-yolov8\app\src\main\jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\26.1.10909125
+-DCMAKE_ANDROID_NDK=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\26.1.10909125
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\26.1.10909125\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\@current_project\ncnn-android-yolov8\app\build\intermediates\cxx\Debug\2g403v1e\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\@current_project\ncnn-android-yolov8\app\build\intermediates\cxx\Debug\2g403v1e\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BD:\@current_project\ncnn-android-yolov8\app\.cxx\Debug\2g403v1e\x86
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

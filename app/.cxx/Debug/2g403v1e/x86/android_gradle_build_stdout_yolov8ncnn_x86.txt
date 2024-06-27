@@ -1,0 +1,17 @@
+ninja: Entering directory `D:\@current_project\ncnn-android-yolov8\app\.cxx\Debug\2g403v1e\x86'
+[1/4] Building CXX object CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o
+D:/@current_project/ncnn-android-yolov8/app/src/main/jni/ndkcamera.cpp:152:117: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+    __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureSequenceCompleted %p %d %ld", session, sequenceId, frameNumber);
+                                                                                         ~~~                        ^~~~~~~~~~~
+                                                                                         %lld
+1 warning generated.
+[2/4] Building CXX object CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o
+[3/4] Building CXX object CMakeFiles/yolov8ncnn.dir/yolo.cpp.o
+D:/@current_project/ncnn-android-yolov8/app/src/main/jni/yolo.cpp:249:38: warning: data argument not used by format string [-Wformat-extra-args]
+    sprintf(parampath, "best.param", modeltype);
+                       ~~~~~~~~~~~~  ^
+D:/@current_project/ncnn-android-yolov8/app/src/main/jni/yolo.cpp:250:36: warning: data argument not used by format string [-Wformat-extra-args]
+    sprintf(modelpath, "best.bin", modeltype);
+                       ~~~~~~~~~~  ^
+2 warnings generated.
+[4/4] Linking CXX shared library D:\@current_project\ncnn-android-yolov8\app\build\intermediates\cxx\Debug\2g403v1e\obj\x86\libyolov8ncnn.so

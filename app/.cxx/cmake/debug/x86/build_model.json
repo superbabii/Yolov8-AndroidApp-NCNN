@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\@current_project\\ncnn-android-yolov8",
+      "sdkFolder": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\@current_project\\ncnn-android-yolov8\\app",
+      "makeFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\src\\main\\jni\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\@current_project\\ncnn-android-yolov8\\.cxx",
+      "cxxFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125",
+      "ndkVersion": "26.1.10909125",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86",
+  "jsonFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86",
+  "objFolder": "D:\\@current_project\\ncnn-android-yolov8\\app\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "buildCommandFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\\build_command.txt",
+  "buildOutputFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\\build_output.txt",
+  "modelOutputFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\build_generation_state.json",
+    "cacheKeyFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cxx\\debug\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\\compile_commands.json"
+}

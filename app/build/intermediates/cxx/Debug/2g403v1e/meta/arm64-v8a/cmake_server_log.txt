@@ -1,0 +1,782 @@
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"D:/@current_project/ncnn-android-yolov8/app/src/main/jni\",\n  \"buildDirectory\": \"D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d24\",\n    \"-DANDROID_PLATFORM\\u003dandroid-24\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003dC:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\26.1.10909125\",\n    \"-DCMAKE_ANDROID_NDK\\u003dC:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\26.1.10909125\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dC:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\26.1.10909125\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dC:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dD:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\2g403v1e\\\\obj\\\\arm64-v8a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003dD:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\2g403v1e\\\\obj\\\\arm64-v8a\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\"\n  ]\n}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt:1 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\r\n  CMakeLists.txt:1 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\r\n  CMakeLists.txt:1 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working C compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe"
+
+CMAKE SERVER: message: "Check for working C compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working C compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works"
+
+CMAKE SERVER: message: "Check for working C compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info - done"
+
+CMAKE SERVER: message: "Detecting C compiler ABI info - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compile features"
+
+CMAKE SERVER: message: "Detecting C compile features"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting C compile features - done"
+
+CMAKE SERVER: message: "Detecting C compile features - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working CXX compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+
+CMAKE SERVER: message: "Check for working CXX compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Check for working CXX compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works"
+
+CMAKE SERVER: message: "Check for working CXX compiler: C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info - done"
+
+CMAKE SERVER: message: "Detecting CXX compiler ABI info - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compile features"
+
+CMAKE SERVER: message: "Detecting CXX compile features"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Detecting CXX compile features - done"
+
+CMAKE SERVER: message: "Detecting CXX compile features - done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_C: -fopenmp=libomp  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP_C: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "Found OpenMP_C: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_CXX: -fopenmp=libomp  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP_CXX: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "Found OpenMP_CXX: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP: TRUE   \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP: TRUE   "
+
+CMAKE SERVER: message: "Found OpenMP: TRUE   "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenCV: D:/@current_project/ncnn-android-yolov8/app/src/main/jni/opencv-mobile-4.10.0-android (found version \\\"4.10.0\\\") found components:  core imgproc \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenCV: D:/@current_project/ncnn-android-yolov8/app/src/main/jni/opencv-mobile-4.10.0-android (found version \"4.10.0\") found components:  core imgproc "
+
+CMAKE SERVER: message: "Found OpenCV: D:/@current_project/ncnn-android-yolov8/app/src/main/jni/opencv-mobile-4.10.0-android (found version \"4.10.0\") found components:  core imgproc "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_C: -fopenmp=libomp  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP_C: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "Found OpenMP_C: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_CXX: -fopenmp=libomp  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found OpenMP_CXX: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "Found OpenMP_CXX: -fopenmp=libomp  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread.h"
+
+CMAKE SERVER: message: "Looking for pthread.h"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h - found\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread.h - found"
+
+CMAKE SERVER: message: "Looking for pthread.h - found"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread_create"
+
+CMAKE SERVER: message: "Looking for pthread_create"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\\n  An old version of CMake is being used that cannot automatically detect\\n  compiler attributes.  Compiler identification is being bypassed.  Some\\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\\n  CMake\'s built-in compiler identification.\\nCall Stack (most recent call first):\\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: level: WARN
+message: "CMake Warning at C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake:413 (message):\r\n  An old version of CMake is being used that cannot automatically detect\r\n  compiler attributes.  Compiler identification is being bypassed.  Some\r\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\r\n  CMake\'s built-in compiler identification.\r\nCall Stack (most recent call first):\r\n  C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake:54 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\r\n  D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\r\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create - found\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Looking for pthread_create - found"
+
+CMAKE SERVER: message: "Looking for pthread_create - found"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found Threads: TRUE  \",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Found Threads: TRUE  "
+
+CMAKE SERVER: message: "Found Threads: TRUE  "
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Configuring done"
+
+CMAKE SERVER: message: "Configuring done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"type\":\"compute\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Generating done"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"type\":\"cmakeInputs\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenMP.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenMP.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindThreads.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeConfigurableFile.in\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindDependencyMacro.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android-legacy.toolchain.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/platforms.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/compiler_id.cmake\",\"C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake\",\"opencv-mobile-4.10.0-android/sdk/native/jni/OpenCVConfig-version.cmake\",\"opencv-mobile-4.10.0-android/sdk/native/jni/OpenCVConfig.cmake\",\"opencv-mobile-4.10.0-android/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake\",\"opencv-mobile-4.10.0-android/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake\",\"opencv-mobile-4.10.0-android/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/glslang/glslang-config-version.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/glslang/glslang-config.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/glslang/glslang-targets.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/glslang/glslang-targets-release.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/ncnn/ncnn.cmake\",\"ncnn-20240410-android-vulkan/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c\",\"../../../.cxx/Debug/2g403v1e/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp\"]}],\"cmakeRootDirectory\":\"C:/Users/Administrator/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"D:/@current_project/ncnn-android-yolov8/app/src/main/jni\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"type\":\"codemodel\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "\n"
+
+CMAKE SERVER: message: "[== \"CMake Server\" ==[\n"
+
+CMAKE SERVER: message: "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a\",\"name\":\"yolov8ncnn\",\"sourceDirectory\":\"D:/@current_project/ncnn-android-yolov8/app/src/main/jni\",\"targets\":[{\"artifacts\":[\"D:/@current_project/ncnn-android-yolov8/app/build/intermediates/cxx/Debug/2g403v1e/obj/arm64-v8a/libyolov8ncnn.so\"],\"buildDirectory\":\"D:/@current_project/ncnn-android-yolov8/app/.cxx/Debug/2g403v1e/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11\",\"defines\":[\"yolov8ncnn_EXPORTS\"],\"includePath\":[{\"isSystem\":true,\"path\":\"D:/@current_project/ncnn-android-yolov8/app/src/main/jni/ncnn-20240410-android-vulkan/arm64-v8a/include/ncnn\"},{\"isSystem\":true,\"path\":\"D:/@current_project/ncnn-android-yolov8/app/src/main/jni/opencv-mobile-4.10.0-android/sdk/native/jni/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"yolov8ncnn.cpp\",\"yolo.cpp\",\"ndkcamera.cpp\"]}],\"fullName\":\"libyolov8ncnn.so\",\"linkFlags\":\"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libncnn.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\opencv-mobile-4.10.0-android\\\\sdk\\\\native\\\\staticlibs\\\\arm64-v8a\\\\libopencv_core.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\opencv-mobile-4.10.0-android\\\\sdk\\\\native\\\\staticlibs\\\\arm64-v8a\\\\libopencv_imgproc.a -lcamera2ndk -lmediandk -Wl,-wrap,__kmp_affinity_determine_capable D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libglslang.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libSPIRV.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libMachineIndependent.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libOGLCompiler.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libOSDependent.a D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\ncnn-20240410-android-vulkan\\\\arm64-v8a\\\\lib\\\\libGenericCodeGen.a -landroid -ljnigraphics D:\\\\@current_project\\\\ncnn-android-yolov8\\\\app\\\\src\\\\main\\\\jni\\\\opencv-mobile-4.10.0-android\\\\sdk\\\\native\\\\staticlibs\\\\arm64-v8a\\\\libopencv_core.a -fopenmp -static-openmp -ldl -lm -llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"yolov8ncnn\",\"sourceDirectory\":\"D:/@current_project/ncnn-android-yolov8/app/src/main/jni\",\"sysroot\":\"C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n"
+
+CMAKE SERVER: message: "]== \"CMake Server\" ==]\n"
+
+CMAKE SERVER: message: "Exiting generation of D:\\@current_project\\ncnn-android-yolov8\\app\\.cxx\\Debug\\2g403v1e\\arm64-v8a\\compile_commands.json.bin normally"
+
