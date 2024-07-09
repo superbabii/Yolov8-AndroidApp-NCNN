@@ -1,41 +1,42 @@
-# ncnn-android-yolov8
+# Yolov8-AndroidApp-NCNN
 
-The yolov8 object detection
+This is a sample NCNN Android project utilizing Yolov8 for object detection. It depends on the NCNN library and OpenCV.
 
-This is a sample ncnn android project, it depends on ncnn library and opencv
+- [NCNN](https://github.com/Tencent/ncnn)
+- [OpenCV Mobile](https://github.com/nihui/opencv-mobile)
 
-https://github.com/Tencent/ncnn
+## How to Build and Run
 
-https://github.com/nihui/opencv-mobile
+### Step 1: Set Up NCNN
+1. Download the latest `ncnn-YYYYMMDD-android-vulkan.zip` from the [NCNN releases page](https://github.com/Tencent/ncnn/releases).
+2. Extract the contents into `app/src/main/jni`.
+3. Update the `ncnn_DIR` path in `app/src/main/jni/CMakeLists.txt`:
+    ```cmake
+    set(ncnn_DIR "${CMAKE_SOURCE_DIR}/app/src/main/jni/ncnn-YYYYMMDD-android-vulkan")
+    ```
 
+### Step 2: Set Up OpenCV
+1. Download `opencv-mobile-XYZ-android.zip` from the [OpenCV Mobile releases page](https://github.com/nihui/opencv-mobile).
+2. Extract the contents into `app/src/main/jni`.
+3. Update the `OpenCV_DIR` path in `app/src/main/jni/CMakeLists.txt`:
+    ```cmake
+    set(OpenCV_DIR "${CMAKE_SOURCE_DIR}/app/src/main/jni/opencv-mobile-XYZ-android")
+    ```
 
-## how to build and run
-### step1
-https://github.com/Tencent/ncnn/releases
+### Step 3: Build the Project
+1. Open the project in Android Studio.
+2. Sync the project with Gradle files.
+3. Build the project (`Build > Make Project`).
+4. Run the app on an Android device with Vulkan support.
 
-* Download ncnn-YYYYMMDD-android-vulkan.zip or build ncnn for android yourself
-* Extract ncnn-YYYYMMDD-android-vulkan.zip into **app/src/main/jni** and change the **ncnn_DIR** path to yours in **app/src/main/jni/CMakeLists.txt**
+## Notes
+- **Camera Efficiency**: Uses Android NDK camera for optimal performance.
+- **Compatibility**: May crash on older devices lacking HAL3 camera interface.
+- **Model Input Shape**: All models are modified to accept dynamic input shapes.
+- **Performance**: Smaller models might run slower on GPU than on CPU.
+- **FPS Considerations**: Lower frame rates in low light due to longer exposure times.
 
-### step2
-https://github.com/nihui/opencv-mobile
-
-* Download opencv-mobile-XYZ-android.zip
-* Extract opencv-mobile-XYZ-android.zip into **app/src/main/jni** and change the **OpenCV_DIR** path to yours in **app/src/main/jni/CMakeLists.txt**
-
-### step3
-* Open this project with Android Studio, build it and enjoy!
-
-## some notes
-* Android ndk camera is used for best efficiency
-* Crash may happen on very old devices for lacking HAL3 camera interface
-* All models are manually modified to accept dynamic input shape
-* Most small models run slower on GPU than on CPU, this is common
-* FPS may be lower in dark environment because of longer camera exposure time
-
-## screenshot
-![](screenshot.png)
-
-## Reference：  
-https://github.com/nihui/ncnn-android-nanodet  
-https://github.com/Tencent/ncnn  
-https://github.com/ultralytics/assets/releases/tag/v0.0.0
+## References
+- [ncnn-android-nanodet](https://github.com/nihui/ncnn-android-nanodet)
+- [NCNN](https://github.com/Tencent/ncnn)
+- [Ultralytics Assets Releases](https://github.com/ultralytics/assets/releases/tag/v0.0.0)
